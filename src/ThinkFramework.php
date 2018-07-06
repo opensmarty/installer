@@ -22,7 +22,7 @@ class ThinkFramework extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('opensmarty/framework' !== $package->getPrettyName()) {
+        if ('shuguo/framework' !== $package->getPrettyName()) {
             throw new \InvalidArgumentException('Unable to install this library!');
         }
 
