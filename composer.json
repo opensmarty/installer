@@ -1,5 +1,5 @@
 {
-    "name": "shuguo/installer",
+    "name": "opensmarty/installer",
     "type": "composer-plugin",
     "license": "Apache-2.0",
     "authors": [
