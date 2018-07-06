@@ -1,0 +1,25 @@
+{
+    "name": "shuguo/installer",
+    "type": "composer-plugin",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "opensmarty",
+            "email": "opensmarty@163.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "think\\composer\\Plugin"
+    }
+}
