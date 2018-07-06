@@ -23,7 +23,7 @@ class ThinkTesting extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('chinashuguo/testing' !== $package->getPrettyName()) {
+        if ('opensmarty/testing' !== $package->getPrettyName()) {
             throw new \InvalidArgumentException('Unable to install this library!');
         }
 

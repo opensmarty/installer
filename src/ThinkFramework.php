@@ -22,7 +22,7 @@ class ThinkFramework extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('chinashuguo/framework' !== $package->getPrettyName()) {
+        if ('opensmarty/framework' !== $package->getPrettyName()) {
             throw new \InvalidArgumentException('Unable to install this library!');
         }
 
